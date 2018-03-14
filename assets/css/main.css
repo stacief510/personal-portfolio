@@ -1,1 +1,33 @@
 /* custom styles */
+body {
+	font-family: 'Rubik', sans-serif;
+
+}
+h1{
+	text-align: center;
+}
+
+nav {
+	text-align: center;
+	padding-bottom: 15px;
+}
+nav a {
+	color: #000000;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 800;
+	text-decoration: none;
+	padding: 10px;
+	margin: 10px;
+}
+img {
+	position: relative;
+	width: 55%;
+	height: 55%;
+	border: 12px dotted pink;
+	margin: 10px;
+}
+aside{
+	display: flex;
+	justify-content: flex-end;
+	width: 30%;
+}
