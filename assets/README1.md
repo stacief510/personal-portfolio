@@ -1,23 +1,12 @@
 Stacie Fraser's Portfolio
-TODO: Create a Portfolio page to show all of my completed projects. 
+TODO: Create a Portfolio page to show all of my completed projects & skills. 
 
-Installation
-TODO: Describe the installation process
+About Me
+TODO: Photo of me and a paragraph about me.
 
-Usage
-TODO: Write usage instructions
+My Work
+TODO: add my completed 
 
-Contributing
-Fork it!
-Create your feature branch: git checkout -b my-new-feature
-Commit your changes: git commit -am 'Add some feature'
-Push to the branch: git push origin my-new-feature
-Submit a pull request :D
-History
-TODO: Write history
+Contact Me
+TODO: Add social links and contact information
 
-Credits
-TODO: Write credits
-
-License
-TODO: Write license
