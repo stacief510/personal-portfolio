@@ -1,45 +1,84 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Stacie Fraser - Portfolio</title>
-  <!-- meta -->
-  <meta charset="utf-8" />
-  <meta name="description" content="Personal Site">
-  <meta name="author" content="GA Student">
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-  <!-- mobile -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- styles -->
-  <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-  <link href="https://fonts.googleapis.com/css?family=Rubik:400,700" rel="stylesheet">
-  <!-- scripts -->
-  <script type="text/javascript" src="assets/js/main.js"></script>
-  <!-- favicon -->
-  <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
+    <title>Stacie Fraser - Portfolio</title>
+    <!-- meta -->
+    <meta charset="utf-8" />
+    <meta name="description" content="Personal Site">
+    <meta name="author" content="GA Student">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <!-- mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Italianno|Rubik:400,500,500i,700|Tangerine" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
+    <!-- scripts -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
 </head>
 <header>
-    <nav>
-    <a href=#>About Me</a>
-    <a href=#>Projects</a>
-    <a href=#>Skills</a>
-    <a href=#>Contact Me</a>
-    </nav>  
-    <h1>Stacie's Portfolio</h1>
-	</header>
+    <nav class="navbar sticky-top navbar-light bg-light">
+        <a href="#">About Me</a>
+        <a href="#">Projects</a>
+        <a href=#>Skills</a>
+        <a href=#>Contact Me</a>
+    </nav>
+</header>
+<div id="page-wrapper">
 
-  <div id="page-wrapper">
-  <body>
-	<div class='about'>
-    <h2>About Me</h2>
-		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim perferendis illum placeat mollitia quia velit, at vitae repellendus doloremque ducimus iusto, tempora nostrum deserunt, eligendi totam eius ad aperiam recusandae.</p>
-   </div>
-   <div class='projects'>
-    <h2>Projects</h2>
-  </div>
-   <div class='skills'>
-    <h2>Skills</h2>
-  </div>
-  </div>
+    <body>
+        <section name="about" class="about">
+            <div class="container aboutMe">
+                <div class="row">
+                    <div class="col-md-6 essay">
+                        <h2>Hi, I'm Stacie</h2>
+                        <h4>Future Web Developer</h4>
+                        <p> Growing up in the San Francisco Bay Area, I was fortunate to be immersed in the possibilities of technology and watch it shape our world and future. Although technology has always been something I was interested in, I decided to go to college for a degree in English Literature, as I also love to read. </p>
+                        <p>After college, I spent some years working in the corporate world trying to decide how to best live my life. It wasn’t until 2017 that I decided to take a part-time Front End Web Development course at General Assembly. I learned HTML, CSS, JQuery, and Javascript. Although learning these languages were enough to become a web designer, it didn’t quench my desire of understanding the Internet from all angles. It was there that I realized my passion to create and learn, and thus my journey into web development begun.</p>
+                        <p>I am currently enrolled in General Assembly’s full-time web development immersive course. Here, I am gaining an even deeper understanding of Javascript and will also learn other languages like React and Ruby on Rails. By the end of this course, I will be ready to shape our world and future.
+                        </p>
+                    </div>
+                    <div id="selfie" class="col-md-6"> <img src="assets/imgs/Stacie2018Spring1.jpg" alt="StacieSelfie"></div>
+                </div>
+                <div class="flex-button">
+                    <button class="btn btn-outline-secondary">Download Resume</button>
+                </div>
+            </div>
+        </section>
+        <div class='skills'>
+            <h2>Skills</h2>
+            <div class="container skillBox">
+                <div class="row">
+                    <div class="col-md-3">
+                        <i class="fab fa-html5">HTML</i>
+                    </div>
+                    <div class="col-md-3">
+                        <i class="fab fa-css3">CSS</i>
+                    </div>
+                    <div class="col-md-3">
+                        <i class="fab fa-css3">JS</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div name="projects" class='projects'>
+            <h2>Projects</h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim perferendis illum placeat mollitia quia velit, at vitae repellendus doloremque ducimus iusto, tempora nostrum deserunt, eligendi totam eius ad aperiam recusandae.</p>
+        </div>
+</div>
 </body>
+
+<div class="footer">
+<footer>
+    <a href="https://www.linkedin.com/in/staciefraser/">Linkedin</a>
+    <a href="https://github.com/stacief510">GitHub</a>
+    <a href="https://www.instagram.com/stacief510/">Instagram</a>
+</footer>
+</div>
+
 </html>

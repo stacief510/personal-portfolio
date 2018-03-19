@@ -1,12 +1,11 @@
-Stacie Fraser's Portfolio
-TODO: Create a Portfolio page to show all of my completed projects & skills. 
+#Stacie Fraser's Portfolio
+A Portfolio page to show all of my completed projects & list of skillsets. 
 
-About Me
-TODO: Photo of me and a paragraph about me.
+#Photo of me and a paragraph about me.
 
-My Work
-TODO: add my completed 
+#My Work
+Add my completed projects.
 
-Contact Me
-TODO: Add social links and contact information
+#Contact Me
+Add social links and contact information.
 
