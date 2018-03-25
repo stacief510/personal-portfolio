@@ -16,23 +16,28 @@
     <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Italianno|Rubik:400,500,500i,700|Tangerine" rel="stylesheet">
-    <!-- favicon -->
-    <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
-    <!-- scripts -->
+    <!-- fontawesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+    <!-- customized script -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
 </head>
 <header>
     <nav class="navbar sticky-top navbar-light bg-light">
-        <a href="#">About Me</a>
-        <a href="#">Projects</a>
-        <a href=#>Skills</a>
+        <a href="#about">About Me</a>
+        <a href=#skills>Skills</a>
+        <a href="#projects">Projects</a>
         <a href=#>Contact Me</a>
     </nav>
 </header>
 <div id="page-wrapper">
 
     <body>
-        <section name="about" class="about">
+        <section id="about" class="about">
             <div class="container aboutMe">
                 <div class="row">
                     <div class="col-md-6 essay">
@@ -43,31 +48,55 @@
                         <p>I am currently enrolled in General Assembly’s full-time web development immersive course. Here, I am gaining an even deeper understanding of Javascript and will also learn other languages like React and Ruby on Rails. By the end of this course, I will be ready to shape our world and future.
                         </p>
                     </div>
-                    <div id="selfie" class="col-md-6"> <img src="assets/imgs/Stacie2018Spring1.jpg" alt="StacieSelfie"></div>
+                    <div id="selfie" class="col-md-6"> 
+                        <img src="assets/imgs/Stacie2018Spring1.jpg" alt="StacieSelfie"/>
+                    </div>
                 </div>
-                <div class="flex-button">
+                <div class="resume-button">
                     <button class="btn btn-outline-secondary">Download Resume</button>
                 </div>
             </div>
         </section>
         <div class='skills'>
-            <h2>Skills</h2>
-            <div class="container skillBox">
-                <div class="row">
-                    <div class="col-md-3">
-                        <i class="fab fa-html5">HTML</i>
+            <h2 id="skills" class='title'>Skills</h2>
+            <div class="skillBox">
+                    <div class="circle">
+                            <span class="span1">HTML
+                            </span>
+                            <span class="altSpan">Bootstrap
+                            </span>
+
                     </div>
-                    <div class="col-md-3">
-                        <i class="fab fa-css3">CSS</i>
+                    <div class="circle">
+                            <span class="span2">CSS
+                            </span>
+                            <span class="altSpan">AJAX
+                            </span>
+                    </div>                    
+                    <div class="circle">
+                            <span class="span3 misc">jQuery
+                            </span>
+                            <span class="altSpan">Node
+                            </span>
                     </div>
-                    <div class="col-md-3">
-                        <i class="fab fa-css3">JS</i>
+                    <div class="circle">
+                            <span class="span4">Ruby
+                            </span>
+                            <span class="altSpan">React
+                            </span>
                     </div>
-                </div>
+                    <div class="circle">
+                            <span class="span5">JavaScript
+                            </span>
+                            <span class="altSpan">Git/Github
+                            </span>
+                  </div>
+                  </span>
             </div>
         </div>
-        <div name="projects" class='projects'>
-            <h2>Projects</h2>
+
+        <div id="projects">
+            <h2 class="title">Projects</h2>
             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim perferendis illum placeat mollitia quia velit, at vitae repellendus doloremque ducimus iusto, tempora nostrum deserunt, eligendi totam eius ad aperiam recusandae.</p>
         </div>
 </div>
@@ -82,3 +111,5 @@
 </div>
 
 </html>
+
+<!-- <div class="col-sm-2"><i class="fas fa-circle circle2"></i>CSS</div> -->

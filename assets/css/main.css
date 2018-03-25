@@ -23,6 +23,9 @@ nav a:hover {
 	text-decoration: none;
 	color: #000;
 }
+div{
+	width:100%;
+}
 section{
 	margin-top: 50px;
 	padding-top: 30px;
@@ -35,15 +38,19 @@ img {
 }
 #selfie{
 	padding-left: 80px;
+	padding-right: 10%;
 }
 .essay {
     font-size: 12px;
     text-align: justify;
 }
-.flex-button {
+.resume-button {
     display: flex;
     justify-content: center;
 	margin-bottom: 15px;
+}
+.about{
+	width:100%;
 }
 .container.aboutMe {
     margin-left: 80px;
@@ -52,7 +59,59 @@ img {
 
 .skills{
 	background-color: #F8F9FA;
+	height:250px;
+	padding-left: 20px;
 }
+.title{
+	padding-left: 6%;
+}
+
+.circle{
+	display:inline-block;
+	background-color: #283EBD;
+	position: absolute;
+	height: 160px;
+	width: 160px;
+	box-shadow: -6px 1px 1px #3e3f42db;
+	border-radius: 100%;
+}
+span {
+	margin: auto;
+	font-weight: bold;
+	font-size: 1.1em;
+	padding-left: 25%;
+	color: #fff;
+	position: relative;
+	top: 40%;
+	transform: translateY(-50%);
+}
+.circle:nth-child(1){
+	left: 25%;
+}
+.circle:nth-child(2){
+	left: 35%;
+	background-color: #4FFFFE;
+}
+.circle:nth-child(3){
+	left: 45%;
+	background-color: #FF2340;
+}
+.circle:nth-child(4){
+	left: 55%;
+	background-color: #8B0CE8;
+}
+.circle:nth-child(5){
+	left: 65%;
+	background-color: #E654E8;
+}
+.altSpan{
+	display:none;
+}
+
+
+
+
+
 .footer{
 	display: flex;
 	justify-content: space-around;
