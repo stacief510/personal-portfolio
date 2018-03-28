@@ -30,11 +30,11 @@ nav a:hover {
 img {
     max-width: 500px;
     height: auto%;
-    border-radius: 300px;
     margin: 0;
 }
 #selfie{
 	max-width: 500px;
+	border-radius: 300px;
 	padding-left: 80px;
 	padding-right: 10%;
 }
@@ -115,7 +115,14 @@ span {
 .row{
 	margin:0;
 }
-
+.card-img-top{
+	border-radius: none;
+	padding: 0;
+}
+.card{
+	padding: 0;
+	text-align: center;
+}
 
 
 .footer{
