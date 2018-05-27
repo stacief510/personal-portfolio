@@ -7,35 +7,38 @@
     <meta charset="utf-8" />
     <meta name="description" content="Personal Site">
     <meta name="author" content="GA Student">
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
     <!-- mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <!-- styles -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
+
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Italianno|Rubik:400,500,500i,700|Tangerine" rel="stylesheet">
-    <!-- fontawesome -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
-    <!-- customized script -->
+
+    <link href="https://fonts.googleapis.com/css?family=Chivo:900,900i|Rubik:400,500,500i,700" rel="stylesheet">
+    
     <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
+
     <script type="text/javascript" src="assets/js/main.js"></script>
 </head>
 <header>
     <nav class="navbar sticky-top navbar-light bg-light">
-        <a href="#about">About Me</a>
+      <h3 class="name">StacieFraser</h3>
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item" href="#about">About Me</a>
         <a href=#skills>Skills</a>
         <a href="#projects">Projects</a>
-        <a href=#>Contact Me</a>
+        <a href=#contact>Contact Me</a>
+       </div> 
     </nav>
 </header>
 <div id="page-wrapper">
-
   <body>
     <section id="about" class="about">
             <div class="container aboutMe">
@@ -48,107 +51,136 @@
                         <p>I am currently enrolled in General Assembly’s full-time web development immersive course. Here, I am gaining an even deeper understanding of Javascript and will also learn other languages like React and Ruby on Rails. By the end of this course, I will be ready to shape our world and future.
                         </p>
                     </div>
-                    <div id="selfie" class="col-lg-6"> 
-                        <img src="assets/imgs/Stacie2018Spring1.jpg" alt="StacieSelfie"/>
+                    <div class="imgDiv" class="col-lg-6">
+                        <img id="selfie" src="assets/imgs/Stacie2018Spring1.jpg" alt="StacieSelfie"/>
                     </div>
                 </div>
                 <div class="resume-button">
-                    <button class="btn btn-outline-secondary">Download Resume</button>
+                    <a class="btn btn-outline-secondary" href="2018Resume.pdf" download>Download Resume</a>
                 </div>
             </div>
     </section>
-    <section id="skills">
-            <div class='skills container'>
-                <h2 class='title'>Skills</h2>
-                <div class="skillBox">
-                        <div class="circle">
-                                <span class="span1">HTML
-                                </span>
-                                <span class="altSpan">AJAX
-                                </span>
-
-                        </div>
-                        <div class="circle">
-                                <span class="span2">CSS
-                                </span>
-                                <span class="altSpan">Bootstrap
-                                </span>
-                        </div>                    
-                        <div class="circle">
-                                <span class="span3">JavaScript
-                                </span>
-                                <span class="altSpan">jQuery
-                                </span>
-                        </div>
-                        <div class="circle">
-                                <span class="span4">Ruby
-                                </span>
-                                <span class="altSpan">Git/Github
-                                </span>
-                        </div>
-                        <div class="circle">
-                                <span class="span5">React
-                                </span>
-                                <span class="altSpan">AngularJS
-                                </span>
-                        </div>
-                         <div class="circle">
-                                <span class="span6">Node.js
-                                </span>
-                                <span class="altSpan">Express
-                                </span>            
-                        </div>
-                         <div class="circle">
-                                <span class="span7">MongoDB
-                                </span>
-                                <span class="altSpan">Mongoose
-                                </span>
-                         </div>
-                </div>
-            </div>
-    </section>
+    
     <section id="projects">
       <div class="container">
             <h2 class="title">Projects</h2>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim perferendis illum placeat mollitia quia velit, at vitae repellendus doloremque ducimus iusto, tempora nostrum deserunt, eligendi totam eius ad aperiam recusandae.</p>
-                <!-- bootstrap cards here -->
+
       <div class='row'>
-        <div class="col-md-3 card" style="width: 18rem;">
-          <img class="card-img-top" src="assets/imgs/penguinslide.png" alt="Card image cap">
-          <div class="card-body">
-              <p class="card-text">Race your penguin across the ice!</p>
-          </div>
-      </div>
-      <div class="col-md-3 card" style="width: 18rem;">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-      </div>
-      <div class="col-md-3 card" style="width: 18rem;">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-       </div>
-       <div class="col-md-3 card" style="width: 18rem;">
-           <img class="card-img-top" src="..." alt="Card image cap">
-           <div class="card-body">
-               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-           </div>
-       </div>
-     </div>
+        <div class="projPhoto col-md-4">
+                <a href="http://jeffwymaphotography.bitballoon.com/" target="blank"><img class="card-img-top" src="assets/imgs/jeffwymaphotography1.png" alt="Card image cap"></a>
+                
+                <a href="https://github.com/stacief510/JeffWPhoto"><i class="repo fa fa-github"></i></a>
+        </div>
+
+        <div class="projPhoto col-md-4">
+            <a href="https://scheduler-frontend.herokuapp.com/users/" target="blank"><img class="card-img-top" src="assets/imgs/weeklysched.png" alt="Card image cap"></a>
+           
+            <a href="https://github.com/stacief510/project3-scheduler"><i class="repo fa fa-github"></i></a>
+            </div>
+
+       <div class="projPhoto col-md-4">
+            <a href="https://secret-thicket-48628.herokuapp.com/" target="blank"><img class="card-img-top api" src="assets/imgs/vagabond.png" alt="PersonalAPI"></a>
+     
+            <a href="https://github.com/vahyno/Project-2---Project-Vagabond"><i class="repo fa fa-github"></i></a>
+        </div>
+        </div>
+
+        <div class='row'>
+                <div class="projPhoto col-md-4">
+                    <a href="http://stacies-penguinslideadventure.bitballoon.com/" target="blank"><img class="card-img-top" src="assets/imgs/penguinslide.png" alt="Card image cap"></a>
+                    <a href="https://github.com/stacief510/RacingGame"><i class="repo fa fa-github"></i></a>
+        </div>
+        <div class="projPhoto col-md-4">
+                <a href="#" target="blank"><img class="card-img-top" src="assets/imgs/geoquakes.png" alt="Card image cap"></a>
+                <a href="https://github.com/stacief510/geoquakes"><i class="repo fa fa-github"></i></a>
+                </div>
+    
+           <div class="projPhoto col-md-4">
+                <a href="https://personal-travel-api.herokuapp.com/" target="blank"><img class="card-img-top api" src="assets/imgs/personalAPI3.png" alt="PersonalAPI"></a>                
+                <a href="https://github.com/stacief510/PlacesTraveledAPI"><i class="repo fa fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+<section id="skills">
+            <div class='skills container'>
+                <h2 class='title'>Skills</h2>
+                <div class="skillBox">
+                    <div class="circle">
+                            <span class="span1">Git/GitHub
+                            </span>
+                    </div>
+                    <div class="circle">
+                            <span class="span2">AJAX
+                            </span>
+                    </div>
+                    <div class="circle">
+                            <span class="span3">HTML
+                            </span>
+                    </div>
+                    <div class="circle">
+                            <span class="span4">React
+                            </span>
+                    </div>
+                    <div class="circle">
+                            <span class="span5">Javascript
+                            </span>
+                    </div>
+                     <div class="circle">
+                            <span class="span6">JQuery
+                            </span>
+                    </div>
+                     <div class="circle">
+                            <span class="span7">CSS
+                            </span>
+                     </div>
+                </div>
+
+
+
+                <div class="skillBox2">
+                    <div class="circle">
+                            <span class="span1">Bootstrap
+                            </span>
+                    </div>
+                    <div class="circle">
+                            <span class="span2">Ruby
+                            </span>
+                    </div>
+                    <div class="circle">
+                            <span class="span3">Rails
+                            </span>
+                    </div>
+                    <div class="circle">
+                            <span class="span4">Node.js
+                            </span>
+                    </div>
+                    <div class="circle">
+                            <span class="span5">Express
+                            </span>
+                    </div>
+                     <div class="circle">
+                            <span class="span6">MongoDB
+                            </span>
+                    </div>
+                     <div class="circle">
+                            <span class="span7">Mongoose
+                            </span>
+                     </div>
+                </div>
+
+            </div>
     </section>
   </body>
 
 <div class="footer">
-<footer>
-    <a>staciemfraser@gmail.com</a>
-    <a href="https://www.linkedin.com/in/staciefraser/">Linkedin</a>
-    <a href="https://github.com/stacief510">GitHub</a>
-    <a href="https://www.instagram.com/stacief510/">Instagram</a>
+<footer id="contact">
+    <a href="mailto:staciemfraser@gmail.com" class="btn-social"><i class="fa fa-envelope"></i></a>
+    <a href="https://www.linkedin.com/in/staciefraser" class="btn-social" target="_blank"><i class="fa fa-linkedin"></i></i></a>
+    <a href="https://github.com/stacief510" class="btn-social" target="_blank"><i class="fa fa-github"></i></a>
+    
 </footer>
+
 </div>
 
 </html>
-

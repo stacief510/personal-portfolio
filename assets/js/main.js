@@ -12,7 +12,15 @@ $(".circle").mouseleave(function(){
         $('.altSpan').toggle().hide();
 });
 
-
+// $('#clickContact').on('click', function() {
+//   if( $('.modal-background').css('display', 'none')){
+//       $('.modal-background').css('display', 'block').fadeIn();
+//     	$('.modal-content').css('display', 'block').fadeIn();
+// } else if( $('.modal-background').css('display', 'block')) {
+//   $('.modal-background').css('display', 'none').fadeOut();
+//   $('.modal-content').css('display', 'none').fadeOut();
+// }
+// });
 
 
 
